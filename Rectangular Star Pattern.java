@@ -1,3 +1,4 @@
+
 class main {
     static void pattern(int N)
  {
@@ -15,3 +16,12 @@ class main {
          pattern(N);
      }
  }
+
+
+Output:  
+
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
