@@ -1,19 +1,19 @@
 // Rectangular Star Pattern
 class main {
-    static void pattern(int N)
+    static void pattern(int n)
  {
-     for (int i = 0; i < N; i++)     // Outer  loop for the rows
+     for (int i = 0; i < n; i++)     // Outer  loop for the rows
      {
-         for (int j = 0; j < N; j++)  // Inner loop for columns ,which will print star
+         for (int j = 0; j < n; j++)  // Inner loop for columns ,which will print star
          {
-             System.out.print("* ");
+             System.out.print("*");
          }
          System.out.println(); // To move to the nextline
      }
  }
      public static void main(String[] args) {
-         int N = 5;
-         pattern(N);
+         int n = 5;
+         pattern(n);
      }
  }
 
@@ -29,21 +29,21 @@ Output:
 
 //Right-Angled Triangle Pattern
 class main {
-    static void pattern(int N)
+    static void pattern(int n)
  {
-     for (int i = 0; i < N; i++)     // Outer  loop for the rows
+     for (int i = 0; i < n; i++)     // Outer  loop for the rows
      {
          for (int j = 0; j <= i; j++)  // Inner loop for columns ,which will print star
          // no. of columns = row number for each line here
          {
-             System.out.print("* ");
+             System.out.print("*");
          }
          System.out.println(); // To move to the nextline
      }
  }
      public static void main(String[] args) {
-         int N = 5;
-         pattern(N);
+         int n = 5;
+         pattern(n);
      }
  }
 
@@ -58,9 +58,9 @@ Output:
 
 //Right-Angled Number Pyramid
 class main {
-    static void pattern(int N)
+    static void pattern(int n)
  {
-     for (int i = 0; i < N; i++)     // Outer  loop for the rows
+     for (int i = 0; i < n; i++)     // Outer  loop for the rows
      {
          for (int j = 0; j <= i; j++)  // Inner loop for columns ,which will print star
          {
@@ -72,8 +72,8 @@ class main {
      }
  }
      public static void main(String[] args) {
-         int N = 5;
-         pattern(N);
+         int n = 5;
+         pattern(n);
      }
  }
 
@@ -89,9 +89,9 @@ Output:
     
 // Right-Angled Number Pyramid - II
     class main {
-    static void pattern(int N)
+    static void pattern(int n)
  {
-     for (int i = 0; i < N; i++)     // Outer  loop for the rows
+     for (int i = 0; i < n; i++)     // Outer  loop for the rows
      {
          for (int j = 0; j <= i; j++)  // Inner loop for columns ,which will print star
          {
@@ -101,8 +101,8 @@ Output:
      }
  }
      public static void main(String[] args) {
-         int N = 5;
-         pattern(N);
+         int n = 5;
+         pattern(n);
      }
  }
 
@@ -174,4 +174,5 @@ Output:
 1 2 3 
 1 2 
 1 
+
 
