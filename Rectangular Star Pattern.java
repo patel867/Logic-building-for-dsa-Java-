@@ -176,3 +176,86 @@ Output:
 1 
 
 
+
+//Star Pyramid
+class main {
+   static void pattern(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        // loop for printing the spaces before stars
+        for (int j =0; j<n-i-1; j++)
+        {
+            System.out.print(" ");
+        }
+        // loop for  printing the stars in each row
+        for(int j=0;j< 2*i+1;j++){
+            
+            System.out.print("*");
+        }
+        
+        //loop for printing the spaces after the stars in each row
+         for(int j =0; j<n-i-1; j++)
+        {
+            System.out.print(" ");
+        }
+
+     System.out.println();
+    }
+}
+
+    public static void main(String[] args) {
+        int n = 5;
+        pattern(n);
+    }
+}
+
+Output:
+    *    
+   ***   
+  *****  
+ ******* 
+*********
+
+
+//Inverted Star Pyramid
+class main {
+   static void pattern(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        // Loop for printing the spaces before stars in each row
+        for (int j =0; j<i; j++)
+        {
+            System.out.print(" ");
+        }
+       
+        // Loop for printing the stars in each row
+        for(int j=0;j< 2*n -(2*i +1);j++)
+        {
+            
+            System.out.print("*");
+        }
+        
+        // Loop for printing the spaces after the stars in each row
+        for (int j =0; j<i; j++)
+        {
+            System.out.print(" ");
+        }
+        System.out.println();
+    }
+}
+
+    public static void main(String[] args)
+    {
+        int n = 5;
+        pattern(n);
+}
+}
+
+Output:
+*********
+ ******* 
+  *****  
+   ***   
+    * 
